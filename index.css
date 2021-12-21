@@ -1,5 +1,5 @@
 * {
-	outline:  1px dashed red;
+	xoutline:  1px dashed red;
 }
 
 .flex {
@@ -21,7 +21,10 @@
 	flex: 1;
 }
 html, body {
-height: 100%;
+	height: 100%;
+}
+a img {
+	xdisplay: block;
 }
 .reset {
 	padding: 0;
@@ -34,7 +37,9 @@ height: 100%;
 .vertical {
 	flex-direction: column;
 }
-
+.hcenter {
+	justify-content: center;
+}
 
 .nobullet {
 	list-style: none;
@@ -42,4 +47,10 @@ height: 100%;
 .vcenter {
 	align-items: center;
 
+}
+.rounded {
+	border: 1px solid black;
+	border-radius: 50%;
+	padding: 10px;
+	height: 90px;
 }
