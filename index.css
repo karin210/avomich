@@ -4,11 +4,10 @@
 
 .flex {
 	display: flex;
-	xalign-items: stretch;
 }
 
-.hstyle {
-	height: 80px;
+.between {
+	justify-content: space-between;
 
 }
 .fit {
@@ -28,6 +27,8 @@ height: 100%;
 .vertical {
 	flex-direction: column;
 }
-ximg {
-	max-width: 100%;
+
+
+.nobullet {
+	list-style: none;
 }
