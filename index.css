@@ -5,10 +5,17 @@
 .flex {
 	display: flex;
 }
-
+.end {
+	justify-content: flex-end;
+} 
 .between {
 	justify-content: space-between;
-
+}
+.padded {
+	padding: 20px;
+}
+.gap {
+	gap: 20px
 }
 .fit {
 	flex: 1;
@@ -31,4 +38,8 @@ height: 100%;
 
 .nobullet {
 	list-style: none;
+}
+.vcenter {
+	align-items: center;
+
 }
