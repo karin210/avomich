@@ -1,0 +1,33 @@
+* {
+	outline:  1px dashed red;
+}
+
+.flex {
+	display: flex;
+	xalign-items: stretch;
+}
+
+.hstyle {
+	height: 80px;
+
+}
+.fit {
+	flex: 1;
+}
+html, body {
+height: 100%;
+}
+.reset {
+	padding: 0;
+	margin: 0;
+}
+.inherit {
+	height: inherit;
+
+}
+.vertical {
+	flex-direction: column;
+}
+ximg {
+	max-width: 100%;
+}
