@@ -81,3 +81,6 @@ a img {
 .frame {
 	border: 2px solid;
 }
+.colormain {
+	background-color: red;
+}
