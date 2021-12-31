@@ -86,6 +86,13 @@ a img {
 }
 
 .padlogo {
-	padding: 10px;
+	padding: 30px;
+}
+
+.wallimage {
+	display: flex;
+	background-image: url('https://africa-images.com/public/photos/r/S/rSe9MMQRhFSUOLlWc0kvuiWbk/rSe9MMQRhFSUOLlWc0kvuiWbk_smaller.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
