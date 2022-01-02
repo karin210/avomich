@@ -4,77 +4,99 @@
 	<title>AvoMich</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 	<script type="text/javascript" src="jquerty-3.6.0.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 </head>
 <body class="reset flex vertical">
+	
 	<!-- Header -->
 	<header class="between flex gap padlogo wallimage"> 
 		<span class="fit flex padded">
-			<button>Your location</button>
+			<button id="location">Your location</button>
 		</span>
 		<span class="flex vcenter">
 			<img src="logo_v_2.5.png" width="600px" height="130px">
 		</span>
 		<span class="fit gap end flex padded">
-			<button>Log in</button>
-			<button onclick='login()'>New client</button>
+			<button id="login">Log in</button>
+			<button id="newc">New client</button>
 		</span>
 	</header>
 
 	<!-- Main content -->
 	<main class="flex fit">
 		<div class="fit flex vertical">
-			<section class="padded frame">
-				<h2>Steps to buy</h2>
+			<section class="padded frame stylesteps flex">
+					<div class="frame padded wallsilver">	
+						<h2 class="h2steps">Steps to buy</h2>
+					</div>	
+					<div class="frame padded">	
+						<h2>Step 1</h2>
+					</div>
+					<div class="frame padded">
+						<h2>Step 2</h2>
+					</div>	
+					<div class="frame padded">
+						<h2>Step 3</h2>
+					</div>	
 			</section>
-			<section class="fit padded frame">
-				<h2>Size</h2>
+			<section class="padded frame stylesteps flex">
+				<div class="frame padded wallsilver">
+					<h2 class="h2steps">Sizes</h2>
+				</div>
+				<aside class="sizeimage fit padded frame"></aside>
 			</section>
-			<section class="fit padded frame">
-				<h2>Mission</h2>
+			<section class="fit padded frame wallmission">
+				<div>
+					<h2 class="h2design">Mission</h2>
+					<p class="textstyle">Bring the best avocados to our customers</p>
+				</div>
 			</section>
-			<section class="fit padded frame">
-				<h2>Quality</h2>
+			<section class="fit padded frame wallquiality">
+				<div>
+					<h2 class="h2design">Quality</h2>
+				<p class="textstyle">We have very strict process over selection, analysis, fruit storage and packaging. We count with the most important certifications in the world. We manage a transparent traceability</p>
+				</div>
 			</section>
 		</div>
+	
 		<!-- Nav menu -->
-		<aside class="padded frame">
-			<nav class="navmenu">
+		<aside class="padded frame wallnav">
+			<nav>
 				<ul class="reset nobullet flex gap vertical">
 					<li>
-						<a href="about_us.html" class='rounded flex vcenter hcenter'>
+						<a href="about_us.html" class='rounded flex vcenter hcenter navtxt'>
 						We</a>
 					</li>
 					<li>
 						<a href="our_products.html" class='
-						rounded flex vcenter hcenter'>Our_products</a>
+						rounded flex vcenter hcenter navtxt'>Products</a>
 					</li>
 					<li>
-						<a href="certified.html" class="rounded flex vcenter hcenter">
-							<img src="https://www.pngall.com/wp-content/uploads/5/Blue-Ribbon-First-Place-PNG-Image.png" width="40px">
-					
+						<a href="certified.html" class="flex vcenter hcenter">
+							<img src="https://www.vhv.rs/dpng/d/581-5814602_certification-png-transparent-png.png" width="100px">
 						</a>
 					</li>
 					<li>
-						<a href="blog.html" class="rounded flex vcenter hcenter">Blog</a>
+						<a href="blog.html" class="rounded flex vcenter hcenter navtxt">Blog</a>
 					</li>	
 					<li>
-						<a href="gallery.html" class="rounded flex vcenter hcenter">
-							<img src="https://static.vecteezy.com/system/resources/previews/002/850/363/non_2x/gallery-icon-vector.jpg" width="40px">			
+						<a href="gallery.html" class="flex vcenter hcenter">
+							<img src="https://w7.pngwing.com/pngs/73/57/png-transparent-albums-computer-icons-others.png" width="100px">			
 						</a>
 					</li>
 					
 					<li>
-						<a href="jobs.html" class="rounded flex vcenter hcenter">Jobs</a>
+						<a href="jobs.html" class="rounded flex vcenter hcenter navtxt">Jobs</a>
 					</li>
 					<li>
-						<a href="contact.html" class="rounded flex vcenter hcenter">
-						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Google_Contacts_icon.svg/1024px-Google_Contacts_icon.svg.png" width="40px">
+						<a href="contact.html" class=" flex vcenter hcenter">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Google_Contacts_icon.svg/1024px-Google_Contacts_icon.svg.png" width="100px">
 						</a>
 					</li>
 				</ul>
 			</nav>
 		</aside>
 	</main>
-	<script type="module" src="client.js"></script>
+	<script type="module" src="main.js"></script>
 </body>
 </html>
