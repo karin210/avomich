@@ -15,7 +15,7 @@
 	padding: 40px;
 }
 .gap {
-	gap: 20px
+	gap: 20px;
 }
 .fit {
 	flex: 1;
@@ -24,9 +24,10 @@ html, body {
 	height: 100%;
 }
 
-.reset {
+.bodyfill {
 	padding: 0;
 	margin: 0;
+	height: 100%;
 }
 .inherit {
 	height: inherit;
@@ -79,9 +80,6 @@ html, body {
 .frame {
 	border: 2px solid;
 }
-.colormain {
-	background-color: red;
-}
 
 .padlogo {
 	padding: 30px;
@@ -102,7 +100,7 @@ html, body {
 	background-size: 100% 100%;
 }
 
-.stylesteps {
+.horitems {
 	display: flex;
 	flex-direction: row;
 	padding: 0;
@@ -156,4 +154,74 @@ html, body {
 	background-image: url(https://www.invertebral.mx/wp-content/uploads/2021/02/INVERTEBRAL-MEXICAN-HASS-AVOCADO-CALIBER-SIZE-CHART-2021-EXPORTS--900x506.png);
 	background-size: 100% 100%;
 	display: flex;
+}
+
+.homestyle {
+	font-size: 40px;
+	color: white;
+	background-color: black;
+}
+
+.blogartic {
+	display: block;
+	background-color: darkblue;
+	width: 350px;
+	height: 320px;
+	padding: 15px;
+	margin: 20px;
+
+
+}
+
+.h2artic {
+	color: white;
+	font-size: 40px;
+}
+
+.sectionsmall {
+	height: 160px;
+}
+
+.sectionmed {
+	height: 300px;
+}
+
+.sectionbig {
+	height: 600px;
+}
+
+.h1high {
+	font-size: 40px;
+}
+
+.cert {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+
+}
+
+.certsize {
+	width: 300px;
+}
+
+.walldarkgreen {
+	background-color: darkgreen;
+}
+
+.withetext {
+	color: white;
+}
+
+.photosize {
+	width: 750px;
+}
+
+.photorder {
+	display: block;
+	flex-direction: row;
+}
+
+.skipmargin {
+	margin: 0;
 }
