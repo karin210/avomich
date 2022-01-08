@@ -1,41 +1,20 @@
-* {
-	xoutline:  1px dashed red;
-}
 
-.flex {
-	display: flex;
-}
 .end {
 	justify-content: flex-end;
 } 
 .between {
 	justify-content: space-between;
 }
-.padded {
-	padding: 40px;
-}
+
 .gap {
 	gap: 20px;
 }
-.fit {
-	flex: 1;
-}
-html, body {
-	height: 100%;
-}
 
-.bodyfill {
-	padding: 0;
-	margin: 0;
-	height: 100%;
-}
 .inherit {
 	height: inherit;
 
 }
-.vertical {
-	flex-direction: column;
-}
+
 .hcenter {
 	justify-content: center;
 }
@@ -77,21 +56,14 @@ html, body {
 	left: 0;
 	top: 0;
 }
-.frame {
-	border: 2px solid;
+
+.wallh2 {
+	background-color: #32801F;
 }
 
 .padlogo {
 	padding: 30px;
 }
-
-.wallimage {
-	display: flex;
-	background-image: url('https://f.hubspotusercontent00.net/hubfs/6063852/AvocadosBANNER.jpg');
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-}
-
 
 .wallmission {
 	background-image: url(https://mission-produce-static.sfo2.cdn.digitaloceanspaces.com/craft/page-content-images/peru/videos/posters/Peru-Poster.jpg);
@@ -100,37 +72,29 @@ html, body {
 	background-size: 100% 100%;
 }
 
-.horitems {
-	display: flex;
-	flex-direction: row;
-	padding: 0;
-	border: 2px;
-	
-}
 
 .h2steps {
 	font-size: 40px;
+	color: white;
 }
 
 .h2design {
-	background-color: silver;
 	display: block;
+	color: white;
 	width: 200px;
 	height: 100px;
 	text-align: center;
 	font-size: 60px;
+	border-radius: 10px;
+	padding: 20px;
 }
-
 
 .textstyle {
 	background-color: black;
 	color: silver;
 	font-size:45px ;
-
-}
-
-.wallsilver {
-	background-color: silver;
+	border-radius: 20px;
+	padding: 20px;
 }
 
 .wallquiality {
@@ -141,19 +105,19 @@ html, body {
 }
 
 .wallnav {
-	background-color: green;
+	background-color: black;
 }
 
 .navtxt {
 	font-size: 25px;
 	color: white;
-	background-color: darkblue;
+	background-color: goldenrod;
 }
 
 .sizeimage {
-	background-image: url(https://www.invertebral.mx/wp-content/uploads/2021/02/INVERTEBRAL-MEXICAN-HASS-AVOCADO-CALIBER-SIZE-CHART-2021-EXPORTS--900x506.png);
 	background-size: 100% 100%;
 	display: flex;
+
 }
 
 .homestyle {
@@ -169,8 +133,6 @@ html, body {
 	height: 320px;
 	padding: 15px;
 	margin: 20px;
-
-
 }
 
 .h2artic {
@@ -224,4 +186,32 @@ html, body {
 
 .skipmargin {
 	margin: 0;
+}
+
+.sizesimage {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.bottomstyle {
+	border-radius: 10px;
+	background-color: white;
+} 
+
+.fullheigh {
+	height: 100%;
+}
+
+.roundbord {
+	border-radius: 20px;
+}
+
+.estbord {
+	border-right: 2px solid;
+}
+
+.heighsizes {
+	height: 600px;
 }
